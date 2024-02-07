@@ -9,19 +9,19 @@ const phrases = [
   "Come on:(",
   "PLEASE",
   "Estás rompiendo mi corazón;("
-]
+] // phrases for the getNoButtonText function
 
 function ValentineApp() {
-  const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+  const [noCount, setNoCount] = useState(0); // keeps track of count
+  const [yesPressed, setYesPressed] = useState(false); // keeps track if yes button is pressed
+  const yesButtonSize = noCount * 20 + 16; //increases yes button size using simple math
 
   function handleNoClick() {
-    setNoCount(noCount + 1);
+    setNoCount(noCount + 1); //increments count every time no button is pressed
   }
 
   function getNoButtonText() {
-    return phrases[Math.min(noCount, phrases.length - 1)];
+    return phrases[Math.min(noCount, phrases.length - 1)]; // returns phrases depending on noCount or returns the last one
   }
 
   return (
