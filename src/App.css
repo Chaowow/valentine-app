@@ -1,0 +1,55 @@
+/* App.css */
+
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffe6f0;
+}
+
+.question-text {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.yay-text {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.yesButton {
+  background-color: #ff1493; 
+  color: white;
+}
+
+.noButton {
+  background-color: #ffc0cb; 
+  color: #333;
+}
+
+button:hover {
+  background-color: #ff69b4; 
+}
+
+img {
+  position: center;
+  width: 300px;
+  height: 200px;
+  bottom: 0;
+  right: 0;
+}

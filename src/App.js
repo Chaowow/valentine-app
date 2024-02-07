@@ -37,11 +37,11 @@ function ValentineApp() {
       ) : (
         <>
           <img 
-            alt="Romantic bear"
-            src="https://media.tenor.com/6eIkl-Qc62EAAAAj/cute.gif"
+            alt="Cute bears"
+            src="https://media.tenor.com/-Qq0R9rKNzUAAAAi/panda-bear.gif"
           />
 
-          <div>Will you be my valentine?</div>
+          <div className='question-text'>Will you be my valentine?</div>
           <div>
             <button
               className='yesButton'
